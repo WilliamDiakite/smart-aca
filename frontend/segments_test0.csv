@@ -1,0 +1,5 @@
+author,ngram,id_text,position,segment
+alice_bob,2,0_1,1_35,"('et', 'longue')"
+alice_bob,2,0_1,10_23,"('jolie', 'et')"
+alice_charles,2,0_2,87_55,"('python', '.')"
+alice_bob,3,0_1,10_23,"('jolie', 'et', 'longue')"

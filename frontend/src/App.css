@@ -1,0 +1,354 @@
+* {
+  color: #616161;
+  background-color: #fafafa;
+}
+
+
+.App {
+  text-align: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+  footer hr {
+    border: none;
+    height: 3px;
+    width: 1200px;
+    margin-bottom: 100px;
+    color: #eeecec;
+    background-color: #eeecec;
+  }
+
+.footerTitle {
+  align: center;
+}
+
+  footer p {
+    text-align: center;
+  }
+
+/*
+████████ ███████ ██   ██ ████████
+   ██    ██       ██ ██     ██
+   ██    █████     ███      ██
+   ██    ██       ██ ██     ██
+   ██    ███████ ██   ██    ██
+*/
+
+h1 {
+  margin:0;
+  font-size: 40px;
+  color: #373737;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 27px;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-right: 200px;
+}
+
+/* hr {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 0.5px;
+  background-color: #751130;
+  color: #751130;
+  /*border: solid #751130;*
+} */
+
+
+/*
+███    ██  █████  ██    ██ ██████   █████  ██████
+████   ██ ██   ██ ██    ██ ██   ██ ██   ██ ██   ██
+██ ██  ██ ███████ ██    ██ ██████  ███████ ██████
+██  ██ ██ ██   ██  ██  ██  ██   ██ ██   ██ ██   ██
+██   ████ ██   ██   ████   ██████  ██   ██ ██   ██
+*/
+
+
+
+.navbar {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  width: 100%;
+}
+
+    .navbar li {
+      margin-right: 40px;
+      font-size: 20px;
+      white-space: nowrap;
+    }
+
+    .navbar .active {
+      font-weight: bold;
+    }
+
+.label {
+  width: 150px;
+}
+
+.navSeparator {
+  margin-bottom: 50px;
+}
+
+
+/*
+██       █████  ██    ██  ██████  ██    ██ ████████ ███████
+██      ██   ██  ██  ██  ██    ██ ██    ██    ██    ██
+██      ███████   ████   ██    ██ ██    ██    ██    ███████
+██      ██   ██    ██    ██    ██ ██    ██    ██         ██
+███████ ██   ██    ██     ██████   ██████     ██    ███████
+*/
+
+.fullLayout {
+  margin: 0;
+}
+
+.verticalSeparator {
+  width: 60px;
+  border-right: 0.3px solid #751130;
+  margin-bottom: 100px;
+}
+
+.segmentLayout {
+  vertical-align: top;
+}
+
+.emptyLayout {
+  width: 60px;
+}
+
+
+.informationsLayoutTd {
+  vertical-align: top;
+}
+
+.informationsLayoutUl {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.liInformation {
+  background: grey;
+  margin: 5px;
+}
+    .liInformation p {
+      width: 100%;
+      font-size: 17px;
+      font-style: italic;
+    }
+
+.informationsSeparator {
+  border: none;
+  height: 1px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #eeecec;
+  background-color: #eeecec;
+}
+
+.detailsContainer {
+
+}
+    .detailsContainer h5 {
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+.analyzerSection {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+    .analyzerSection li {
+      padding: 0;
+      margin: 0;
+      margin-right: 15px;
+    }
+
+    .howToText {
+      display: block;
+    }
+
+.analyzerContainer {
+  margin-top: 10px;
+}
+
+.readerHeader {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.reader {
+  height: 600px;
+  overflow-y: scroll;
+  text-align: justify;
+  box-sizing: content-box;
+}
+
+.hidden {
+  display: none;
+}
+
+/*
+██████   ██████  ██     ██ ███████
+██   ██ ██    ██ ██     ██ ██
+██████  ██    ██ ██  █  ██ ███████
+██   ██ ██    ██ ██ ███ ██      ██
+██   ██  ██████   ███ ███  ███████
+*/
+
+
+.rows {
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.rowDate {
+  font-size: 15px;
+  font-style: italic;
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+.rowTitle {
+  font-size: 15px;
+  font-style: italic;
+  margin-right: 50px;
+  width: 200px;
+  display: block;
+  float: left;
+}
+
+.rowSeparator {
+  border: none;
+  height: 1px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #eeecec;
+  background-color: #eeecec;
+}
+
+/*
+██████  ██       ██████   ██████ ██   ██ ███████
+██   ██ ██      ██    ██ ██      ██  ██  ██
+██████  ██      ██    ██ ██      █████   ███████
+██   ██ ██      ██    ██ ██      ██  ██       ██
+██████  ███████  ██████   ██████ ██   ██ ███████
+*/
+
+.rowSeq {
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.blockSeq {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.blockContainer {
+  width: 8px;
+  height: 8px;
+  margin-right: 5px;
+}
+
+.block {
+  width: 8px;
+  height: 8px;
+  background:  #d6b0bb;
+}
+
+.blockSeg {
+  width: 8px;
+  height: 8px;
+  background:  #751130;
+}
+
+.blockHidden {
+  width: 8px;
+  height: 8px;
+  background: #d9c4cc;
+}
+
+
+/*
+███████ ██████  ██████   ██████  ██████
+██      ██   ██ ██   ██ ██    ██ ██   ██
+█████   ██████  ██████  ██    ██ ██████
+██      ██   ██ ██   ██ ██    ██ ██   ██
+███████ ██   ██ ██   ██  ██████  ██   ██
+*/
+
+.error {
+  font-size: 30px;
+  color: red;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+
+/*
+ ██████  ███████ ███    ██ ███████ ██████   █████  ██
+██       ██      ████   ██ ██      ██   ██ ██   ██ ██
+██   ███ █████   ██ ██  ██ █████   ██████  ███████ ██
+██    ██ ██      ██  ██ ██ ██      ██   ██ ██   ██ ██
+ ██████  ███████ ██   ████ ███████ ██   ██ ██   ██ ███████
+*/
+
+.generalRow {
+  width: 1000px;
+}
+
+  .generalRow p {
+  }
